@@ -1,0 +1,1 @@
+docker build -t address-server -f Dockerfile.server .

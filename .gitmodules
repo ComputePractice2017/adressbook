@@ -1,0 +1,6 @@
+[submodule "adressbook-web"]
+	path = adressbook-web
+	url = https://github.com/ComputePractice2017/adressbook-web.git
+[submodule "adressbook-server"]
+	path = adressbook-server
+	url = https://github.com/ComputePractice2017/adressbook-server.git

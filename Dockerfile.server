@@ -3,6 +3,7 @@ FROM golang
 ADD adressbook-server /go/src/github.com/ComputePractice2017/adressbook-server 
 
 RUN go get "github.com/gorilla/mux"
+RUN go get "github.com/gorilla/handlers"
 RUN go get "gopkg.in/gorethink/gorethink.v3"
 RUN go install github.com/ComputePractice2017/adressbook-server
 

@@ -8,4 +8,6 @@ RUN go install github.com/ComputePractice2017/adressbook-server
 
 ENTRYPOINT /go/bin/adressbook-server
 
+ENV RETHINKDB_HOST db
+
 EXPOSE 8000
